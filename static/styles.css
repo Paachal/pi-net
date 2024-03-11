@@ -1,0 +1,90 @@
+/* static/styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4a0082;  /* Set background color to a darker purple */
+    color: #0c0a0a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a0082;  /* Darker purple background for the header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.appreciation-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #050303;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #4a0082;  /* Set text color to the darker purple */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.claim-section {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.claim-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;  /* Text color for the "CLAIM YOUR 400 PI" section */
+    background-color: #4a0082;  /* Background color for the "CLAIM YOUR 400 PI" section */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0c0a0a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #4a0082;  /* Set label color to the darker purple */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button.unlock-button {
+    background-color: #4a0082;  /* Darker purple background for the button */
+    color: #070505;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.unlock-button:hover {
+    background-color: #320057;  /* Darker shade on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a0082;  /* Darker purple background for the footer */
+    color: #0a0606;
+}

